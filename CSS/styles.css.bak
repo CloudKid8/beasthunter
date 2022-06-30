@@ -1,0 +1,141 @@
+body{
+	color: #40514E;
+	margin:0;
+	text-align:center;	
+	background-color:#F9F3EE;
+}
+
+h1{
+	color:#5B4B8A;
+	margin:50px auto 0 auto;
+	font-size: 5.625rem;
+	font-family: 'Sacramento', cursive;
+}
+h2{
+	color:#FFA500;
+	font-family: 'Dancing Script', cursive;
+	font-size: 2.5rem;
+	font-weight:normal;
+}
+h3{
+	color: #FFCC8F;
+	font-family: 'Abel', sans-serif;
+	font-size:1.25rem;
+}
+p{
+	line-height:2;
+}
+
+.intro{
+	 font-family: "Lucida" Grande, sans-serif;"
+	 width:30%;
+	 margin:auto;
+}
+
+.top-container{
+		position:relative;
+		padding-top:100px;
+		background-image:url(images/mountain1.png);
+		background-size:cover;
+		height:550px;
+}
+
+.middle-container{
+	margin:100px 0;
+}
+
+.bottom-container{
+	margin-top: 50px;
+	background-color: #EFEAD8;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+.arrow{
+	position:absolute;
+	right:350px;
+	top:440px;
+	height:100px;
+}
+.circle{
+	position:absolute;
+	right:410px;
+	top:380px;
+	height:80px;
+}
+
+.topcloud{
+	position:absolute;
+	right:330px;
+	top:200px;
+}
+
+.botcloud{
+	position:absolute;
+	top:200px;
+	left:350px;
+}
+.footer-link{
+	color:#15133C;
+	font-family: "Lucida" Grande, sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: #EAF6F6;
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+
+.web-img{
+	width:25%;
+	float: left;
+	margin-right: 30px;
+}
+.game-img{
+	width:25%;
+	float: right;
+	margin-left: 30px;
+}
+.btn {
+  background: #fc0808;
+  background-image: -webkit-linear-gradient(top, #fc0808, #4a0c14);
+  background-image: -moz-linear-gradient(top, #fc0808, #4a0c14);
+  background-image: -ms-linear-gradient(top, #fc0808, #4a0c14);
+  background-image: -o-linear-gradient(top, #fc0808, #4a0c14);
+  background-image: linear-gradient(to bottom, #fc0808, #4a0c14);
+  -webkit-border-radius: 39;
+  -moz-border-radius: 39;
+  border-radius: 39px;
+  -webkit-box-shadow: 0px 1px 3px #291d29;
+  -moz-box-shadow: 0px 1px 3px #291d29;
+  box-shadow: 0px 1px 3px #291d29;
+  font-family: Georgia;
+  color: #FFE6E6;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFCC8F;
+  text-decoration: none;
+}
+hr{
+	border:dotted #5B4B8A 8px;
+	border-bottom:none;
+	margin:100px auto;
+	width:50%;
+}
+.downarrow{
+	height:50px;
+}
+
+.contactmessage{
+	width:40%;
+	margin:40px auto 60px;
+}
